@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.deltaxml</groupId>
+  <artifactId>dita-compare</artifactId>
+  <version>4.2.6</version>
+  <description>POM was created from install:install-file</description>
+<dependencies>
+<dependency>
+  <groupId>com.deltaxml</groupId>
+  <artifactId>saxon-deltaxml-pe</artifactId>
+  <version>9.5</version>
+</dependency>
+  <dependency>
+    <groupId>com.ibm.icu</groupId>
+    <artifactId>icu4j</artifactId>
+    <version>4.8.1.1</version>
+  </dependency>
+  <dependency>
+    <groupId>org.puremvc</groupId>
+    <artifactId>PureMVC_Java_MultiCore</artifactId>
+    <version>1.0</version>
+  </dependency>
+  
+</dependencies>
+</project>
