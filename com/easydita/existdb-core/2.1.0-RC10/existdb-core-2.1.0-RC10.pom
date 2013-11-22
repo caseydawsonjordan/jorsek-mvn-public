@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.easydita</groupId>
   <artifactId>existdb-core</artifactId>
-  <version>existdb-core-2.1.0-RC10-dlf</version>
+  <version>2.1.0-RC10</version>
   <description></description>
 
 	<dependencies>
