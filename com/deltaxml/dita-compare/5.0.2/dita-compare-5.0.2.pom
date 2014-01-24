@@ -7,11 +7,6 @@
   <version>5.0.2</version>
   <description>POM was created from install:install-file</description>
 <dependencies>
-<dependency>
-  <groupId>com.deltaxml</groupId>
-  <artifactId>saxon-deltaxml-pe</artifactId>
-  <version>9.5</version>
-</dependency>
   <dependency>
     <groupId>com.ibm.icu</groupId>
     <artifactId>icu4j</artifactId>
