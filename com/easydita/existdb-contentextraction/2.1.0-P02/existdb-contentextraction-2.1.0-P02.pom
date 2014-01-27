@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.exist-db</groupId>
-    <artifactId>existdb-xquery-modules</artifactId>
+    <artifactId>existdb-contentextraction</artifactId>
     <version>2.1.0-P02</version>
     <name>eXist-db :: Content extraction</name>
     <url>http://www.exist-db.org</url>
