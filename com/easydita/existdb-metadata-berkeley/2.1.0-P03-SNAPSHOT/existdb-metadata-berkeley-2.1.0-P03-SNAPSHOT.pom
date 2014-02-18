@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easydita</groupId>
+  <artifactId>existdb-metadata-berkeley</artifactId>
+  <version>2.1.0-P03-SNAPSHOT</version>
+  <description>POM was created from install:install-file</description>
+  <dependencies>
+    <dependency>
+	<groupId>com.easydita</groupId>
+	<artifactId>existdb-metadata-interface</artifactId>
+	<version>2.1.0-P03-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+	<groupId>com.sleepycat</groupId>
+	<artifactId>je</artifactId>
+	<version>5.0.58</version>
+    </dependency>
+
+    <dependency>
+	<groupId>com.eaio.uuid</groupId>
+	<artifactId>uuid</artifactId>
+	<version>3.3</version>
+    </dependency>
+
+  </dependencies>
+
+  <repositories>
+    <repository>
+	<id>oracle.com</id>
+	<url>http://download.oracle.com/maven/</url>
+    </repository>
+
+    <repository>
+	<id>eaio.com</id>
+	<url>http://eaio.com/maven2</url>
+    </repository>
+  </repositories>
+
+</project>
