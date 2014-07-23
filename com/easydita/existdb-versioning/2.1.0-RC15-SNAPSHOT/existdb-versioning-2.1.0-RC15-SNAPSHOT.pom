@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.exist-db</groupId>
     <artifactId>existdb-versioning</artifactId>
-    <version>2.1</version>
+    <version>2.1.0-RC15-SNAPSHOT</version>
     <name>eXist-db :: Versioning </name>
     <url>http://www.exist-db.org</url>
 
