@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+    <uri name="iso_dsdl_include.xsl"
+         uri="iso-schematron-xslt2/iso_dsdl_include.xsl" />
+    <uri name="iso_abstract_expand.xsl"
+         uri="iso-schematron-xslt2/iso_abstract_expand.xsl" />
+    <uri name="iso_svrl_for_xslt2.xsl"
+         uri="iso-schematron-xslt2/iso_svrl_for_xslt2.xsl" />
+    <uri name="iso_schematron_message_xslt2.xsl"
+         uri="iso-schematron-xslt2/iso_schematron_message_xslt2.xsl" />
+    <uri name="iso_schematron_skeleton_for_saxon.xsl"
+         uri="iso-schematron-xslt2/iso_schematron_skeleton_for_saxon.xsl" />
+</catalog>
