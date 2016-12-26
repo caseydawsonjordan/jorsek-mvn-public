@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.9.3
-Created-By: 1.8.0_77-b03 (Oracle Corporation)
-Project-Name: eXist-db
-Project-Version: 2.1
-Project-Build: 20161219
-Project-CodeName: Ruesselsheim
-Git-commit: 
-
