@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.easydita</groupId>
+  <artifactId>existdb-core</artifactId>
+  <version>3.7.0-RC04-SNAPSHOT</version>
+  <description></description>
+
+  <properties>
+    <log4j.version>2.8.2</log4j.version>
+    <apache.xmlrpc.version>3.1.3</apache.xmlrpc.version>
+  </properties>
+
+	<dependencies>
+
+    <!--<dependency>-->
+      <!--<groupId>net.jcip</groupId>-->
+      <!--<artifactId>jcip-annotations</artifactId>-->
+    <!--</dependency>-->
+
+    <dependency>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.7</version>
+    </dependency>
+
+    <!--<dependency>-->
+      <!--<groupId>com.fasterxml.jackson.core</groupId>-->
+      <!--<artifactId>jackson-core</artifactId>-->
+      <!--<version>2.5.0</version>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+        <!--<groupId>com.github.krukow</groupId>-->
+        <!--<artifactId>clj-ds</artifactId>-->
+        <!--<version>0.0.4</version>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+        <!--<groupId>com.siemens.ct.exi</groupId>-->
+        <!--<artifactId>exificient</artifactId>-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>com.thaiopensource</groupId>
+        <artifactId>jing</artifactId>
+        <version>20091111</version>
+        <exclusions>
+            <exclusion> <!-- conflicts with xerces 2.11.0 dependency on xml-apis version 1.3.4.14 -->
+                <groupId>xml-apis</groupId>
+                <artifactId>xml-apis</artifactId>
+            </exclusion>
+            <exclusion> <!-- conflicts -->
+                <groupId>net.sf.saxon</groupId>
+                <artifactId>saxon</artifactId>
+            </exclusion>
+            <exclusion> <!-- conflicts -->
+                <groupId>xerces</groupId>
+                <artifactId>xercesImpl</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+
+    <dependency>
+        <groupId>org.gnu</groupId>
+        <artifactId>gnu-crypto</artifactId>
+        <version>2.0.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.evolvedbinary.j8fu</groupId>
+        <artifactId>j8fu</artifactId>
+        <version>1.4.1</version>
+    </dependency>
+
+    <!--<dependency>-->
+        <!--<groupId>javax.servlet</groupId>-->
+        <!--<artifactId>javax.servlet-api</artifactId>-->
+        <!--<scope>provided</scope>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+        <!--<groupId>org.exist-db.thirdparty.javax.xml.xquery</groupId>-->
+        <!--<artifactId>xqjapi</artifactId>-->
+        <!--<version>1.0-fr</version>-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>jline</groupId>
+        <artifactId>jline</artifactId>
+        <version>0.9.94</version>
+    </dependency>
+
+    <!--<dependency>-->
+      <!--<groupId>cglib</groupId>-->
+      <!--<artifactId>cglib</artifactId>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+        <!--<groupId>org.exist-db.thirdparty.se.softhouse</groupId>-->
+        <!--<artifactId>jargo</artifactId>-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>1.10</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-configuration2</artifactId>
+        <version>2.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.5</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.5</version>
+    </dependency>
+
+    <!--<dependency>-->
+        <!--<groupId>commons-logging</groupId>-->
+        <!--<artifactId>commons-logging</artifactId>-->
+        <!--<version>1.2</version>-->
+    <!--</dependency>-->
+        
+    <dependency>
+        <groupId>commons-pool</groupId>
+        <artifactId>commons-pool</artifactId>
+        <version>1.6</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>${log4j.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>${log4j.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-jul</artifactId>
+        <version>${log4j.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-slf4j-impl</artifactId>
+        <version>${log4j.version}</version>
+    </dependency>
+
+    <!--<dependency>-->
+        <!--<groupId>org.apache.ant</groupId>-->
+        <!--<artifactId>ant</artifactId>-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>2.11.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>xml-resolver</groupId>
+        <artifactId>xml-resolver</artifactId>
+        <version>1.2</version> <!-- needed at runtime because xercesImpl declares this as optional, but we use a part of Xerces XMLCatalogResolver which requires this -->
+    </dependency>
+
+    <!--<dependency>-->
+        <!--<groupId>xalan</groupId>-->
+        <!--<artifactId>xalan</artifactId>-->
+        <!--<version>2.7.2</version> &lt;!&ndash; needed an compile time for various dependencies &ndash;&gt;-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>net.sf.saxon</groupId>
+        <artifactId>Saxon-HE</artifactId>
+        <version>9.6.0-7</version><!--9.4-->
+        <scope>runtime</scope> <!-- You can use either Xalan (XSLT 1.0) or Saxon (XSLT 1.0 and 2.0) with eXist at runtime. Saxon is preferred! -->
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.xmlrpc</groupId>
+        <artifactId>xmlrpc-common</artifactId>
+        <version>${apache.xmlrpc.version}</version>
+        <exclusions>
+            <exclusion> <!-- conflicts with xerces 2.11.0 dependency on xml-apis version 1.3.4.14 -->
+                <artifactId>xml-apis</artifactId>
+                <groupId>xml-apis</groupId>
+            </exclusion>
+            <exclusion>
+                <artifactId>log4j</artifactId>
+                <groupId>log4j</groupId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.xmlrpc</groupId>
+        <artifactId>xmlrpc-client</artifactId>
+        <version>${apache.xmlrpc.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.xmlrpc</groupId>
+        <artifactId>xmlrpc-server</artifactId>
+        <version>${apache.xmlrpc.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjrt</artifactId>
+        <version>1.8.9</version>
+    </dependency>
+
+    <!--<dependency>-->
+        <!--<groupId>org.eclipse.jetty</groupId>-->
+        <!--<artifactId>jetty-security</artifactId>-->
+        <!--<version>${jetty.version}</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+        <!--<groupId>org.eclipse.jetty</groupId>-->
+        <!--<artifactId>jetty-server</artifactId>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+        <!--<groupId>org.eclipse.jetty</groupId>-->
+        <!--<artifactId>jetty-util</artifactId>-->
+    <!--</dependency>-->
+
+    <!--<dependency>-->
+        <!--<groupId>org.exist-db.thirdparty.org.expath</groupId>-->
+        <!--<artifactId>pkg-repo</artifactId>-->
+    <!--</dependency>-->
+
+    <dependency>
+        <groupId>com.fifesoft</groupId>
+        <artifactId>rsyntaxtextarea</artifactId>
+        <version>2.6.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz</artifactId>
+        <version>2.2.3</version><!--2.1.6-->
+    </dependency>
+
+		<dependency>
+			<groupId>org.exist-db</groupId>
+			<artifactId>xmldb-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>org.expath</groupId>-->
+			<!--<artifactId>pkg-repo</artifactId>-->
+			<!--<version>0.11</version>-->
+		<!--</dependency>-->
+
+		<!--<dependency>-->
+			<!--<groupId>excalibur-cli</groupId>-->
+			<!--<artifactId>excalibur-cli</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>simexplorer</id>
+			<url>http://maven.simexplorer.org/repo/</url>
+		</repository>
+	</repositories>
+
+</project>
